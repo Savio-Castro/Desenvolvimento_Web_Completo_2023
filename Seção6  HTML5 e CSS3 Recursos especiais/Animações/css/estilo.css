@@ -1,0 +1,185 @@
+/***************************** 
+Animações 
+*****************************/
+
+@-webkit-keyframes animacao-caixa {
+  from {
+    background: lightblue;
+  } /* Estilo inicial */
+  to {
+    background: greenyellow;
+  } /* Estilo final */
+}
+
+@-moz-keyframes animacao-caixa {
+  from {
+    background: lightblue;
+  } /* Estilo inicial */
+  to {
+    background: greenyellow;
+  } /* Estilo final */
+}
+
+@-o-keyframes animacao-caixa {
+  from {
+    background: lightblue;
+  } /* Estilo inicial */
+  to {
+    background: greenyellow;
+  } /* Estilo final */
+}
+
+@keyframes animacao-caixa {
+  from {
+    background: lightblue;
+  } /* Estilo inicial */
+  to {
+    background: greenyellow;
+  } /* Estilo final */
+}
+
+/***************************** 
+Animações caixa 2 */
+
+@-webkit-keyframes animacao-caixa2 {
+  from {
+    background: red;
+  } /* Estilo inicial */
+  to {
+    background: yellow;
+  } /* Estilo final */
+}
+
+@-moz-keyframes animacao-caixa2 {
+  from {
+    background: red;
+  } /* Estilo inicial */
+  to {
+    background: yellow;
+  } /* Estilo final */
+}
+
+@-o-keyframes animacao-caixa2 {
+  from {
+    background: red;
+  } /* Estilo inicial */
+  to {
+    background: yellow;
+  } /* Estilo final */
+}
+
+@keyframes animacao-caixa2 {
+  from {
+    background: red;
+    border-radius: 0px;
+  } /* Estilo inicial */
+  to {
+    background: yellow;
+    border-radius: 40px;
+  } /* Estilo final */
+}
+
+/***************************** 
+Animações caixa 3 */
+
+@keyframes animacao-caixa3 {
+  from {
+    background: orange;
+    border-radius: 0px;
+    top: 0;
+    left: 0;
+  } /* Estilo inicial */
+  to {
+    background: purple;
+    border-radius: 300px;
+    top: 200px;
+    left: 200px;
+  } /* Estilo final */
+}
+
+@-webkit-keyframes animacao-caixa3 {
+  from {
+    background: orange;
+    border-radius: 0px;
+    top: 0;
+    left: 0;
+  } /* Estilo inicial */
+  to {
+    background: purple;
+    border-radius: 300px;
+    top: 200px;
+    left: 200px;
+  } /* Estilo final */
+}
+
+@-moz-keyframes animacao-caixa3 {
+  from {
+    background: orange;
+    border-radius: 0px;
+    top: 0;
+    left: 0;
+  } /* Estilo inicial */
+  to {
+    background: purple;
+    border-radius: 300px;
+    top: 200px;
+    left: 200px;
+  } /* Estilo final */
+}
+
+@-o-keyframes animacao-caixa3 {
+  from {
+    background: orange;
+    border-radius: 0px;
+    top: 0;
+    left: 0;
+  } /* Estilo inicial */
+  to {
+    background: purple;
+    border-radius: 300px;
+    top: 200px;
+    left: 200px;
+  } /* Estilo final */
+}
+
+#caixa,
+#caixa2,
+#caixa3 {
+  width: 300px;
+  height: 300px;
+  animation-duration: 5s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#caixa {
+  background: lightblue;
+  animation-name: animacao-caixa;
+}
+
+#caixa2 {
+  background: red;
+  animation-name: animacao-caixa2;
+}
+
+#caixa3 {
+  background: orange;
+  position: relative;
+  animation-name: animacao-caixa3;
+}
+
+/***************************** 
+Posicionamento e margem entre as caixas */
+
+.container {
+  display: flex;
+}
+
+#caixa,
+#caixa2,
+#caixa3 {
+  margin-right: 30px;
+}
+
+ 

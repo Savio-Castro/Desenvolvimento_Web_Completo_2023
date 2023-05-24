@@ -1,0 +1,42 @@
+#caixa,
+#caixa2,
+#caixa3 {
+  width: 300px;
+  height: 300px;
+  padding: 8px;
+  margin-right: 25px; /* Espaçamento entre as caixas */
+  background: #009670;
+  display: inline-block; /* Alinhar as caixas em linha */
+}
+
+#caixa3 {
+  box-shadow: 20px 20px 10px rgba(0, 150, 112, 0.7);
+}
+
+#caixa h1,
+#caixa2 h1,
+#caixa3 h1 {
+  color: white;
+  text-shadow: 20px 20px #ccc;
+}
+
+#caixa2 h1,
+#caixa3 h1 {
+  text-shadow: 20px 20px 5px rgba(0, 0, 0, 0.6);
+}
+
+.link a {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: white;
+  background: blue;
+  padding: 10px 10px;
+  border: solid 1px #CCC;
+}
+
+.link a:hover {
+  color: blue;
+  background: white;
+  border: solid 1px #CCC;
+}
